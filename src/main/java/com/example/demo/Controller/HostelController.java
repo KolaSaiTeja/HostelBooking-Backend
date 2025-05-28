@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.Modal.Hostel;
 import com.example.demo.Service.HostelService;
 
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = {
+	    "http://localhost:5173", 
+	    "https://hostelworld-project.vercel.app"
+	})
 @RestController
 @RequestMapping("/api/hostels/")
 public class HostelController {
