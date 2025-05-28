@@ -90,7 +90,7 @@ public class DataHostel {
 				h10.setReviews(Arrays.asList(r19, r20));
 			
 
-
+						//hoestels
 				// Bookings will remain null, as requested
 
 				// Save all hostels (cascade saves reviews)
