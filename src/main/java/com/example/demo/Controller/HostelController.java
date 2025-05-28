@@ -18,7 +18,7 @@ import com.example.demo.Service.HostelService;
 	    "https://hostelworld-project.vercel.app"
 	})
 @RestController
-@RequestMapping("/api/hostels/")
+@RequestMapping("/api/hostels")
 public class HostelController {
 	
 	@Autowired
